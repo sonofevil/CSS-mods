@@ -3,6 +3,11 @@
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    Makes mobile browser Facebook somewhat usable.
+                Features:
+                - Navigation bar fixed so it's always visible in feed.
+                - Scrollable input fields.
+                - No overlays in image view.
+                - Erratic scrolling behavior mitigated.
 @author         sonofevil
 ==/UserStyle== */
 @-moz-document regexp("https\\://m\\.facebook\\.com(?!/photo.php).*") {
